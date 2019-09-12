@@ -1,0 +1,66 @@
+.
+├── data
+│   ├── original
+│   │   ├── HGG
+│   │   │   ├── BraTS19_2013_2_1
+│   │   │   │   ├── BraTS19_2013_2_1_flair.nii.gz
+│   │   │   │   ├── BraTS19_2013_2_1_seg.nii.gz
+│   │   │   │   ├── BraTS19_2013_2_1_t1ce.nii.gz
+│   │   │   │   ├── BraTS19_2013_2_1_t1.nii.gz
+│   │   │   │   └── BraTS19_2013_2_1_t2.nii.gz
+│   │   │   └── ...
+│   │   └── LGG
+│   │       ├── BraTS19_2013_0_1
+│   │       │   ├── BraTS19_2013_0_1_flair.nii.gz
+│   │       │   ├── BraTS19_2013_0_1_seg.nii.gz
+│   │       │   ├── BraTS19_2013_0_1_t1ce.nii.gz
+│   │       │   ├── BraTS19_2013_0_1_t1.nii.gz
+│   │       │   └── BraTS19_2013_0_1_t2.nii.gz
+│   │       └── ...
+│   ├── preprocessed
+│   ├── preprocessed_val_data
+│   ├── survival_data.csv
+│   └── val_data
+│       └── val
+│           ├── BraTS19_CBICA_AAM_1
+│           │   ├── BraTS19_CBICA_AAM_1_flair.nii.gz
+│           │   ├── BraTS19_CBICA_AAM_1_t1ce.nii.gz
+│           │   ├── BraTS19_CBICA_AAM_1_t1.nii.gz
+│           │   └── BraTS19_CBICA_AAM_1_t2.nii.gz
+│           ├── ...
+│           └── survival_evaluation.csv
+├── demo_task1
+│   ├── affine.npy
+│   ├── cross_val.py
+│   ├── data_for_val.py
+│   ├── demo_run.ipynb
+│   ├── draw_evaluation.py
+│   ├── evaluate.py
+│   ├── predict_model.py
+│   ├── preprocess.py
+│   ├── run_validation.py
+│   └── train_model.py
+├── demo_task2
+│   ├── demo_run.ipynb
+│   ├── preprocess.py
+│   └── train_model.py
+├── dev_tools
+│   ├── __init__.py
+│   └── my_tools.py
+└── unet3d
+    ├── augment.py
+    ├── data.py
+    ├── generator.py
+    ├── __init__.py
+    ├── metrics.py
+    ├── model
+    │   ├── __init__.py
+    │   ├── isensee2017.py
+    │   └── unet.py
+    ├── normalize.py
+    ├── patches.py
+    ├── prediction.py
+    ├── training.py
+    └── utils.py
+
+keep learning :-D from woody.wff
