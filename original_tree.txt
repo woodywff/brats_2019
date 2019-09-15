@@ -30,7 +30,6 @@
 │           ├── ...
 │           └── survival_evaluation.csv
 ├── demo_task1
-│   ├── affine.npy
 │   ├── cross_val.py
 │   ├── data_for_val.py
 │   ├── demo_run.ipynb
