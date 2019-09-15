@@ -1,7 +1,0 @@
-*.py linguist-language=keras
-*.ipynb linguist-language=keras
-*.js linguist-language=keras
-*.css linguist-language=keras
-*.html linguist-language=keras
-*.md linguist-language=keras 
-*.txt linguist-language=keras
