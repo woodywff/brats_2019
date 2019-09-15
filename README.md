@@ -1,13 +1,13 @@
 # A 3D U-Net Based Solution to BraTS 2019
 ## Introduction
-This is my solution used for the participation of MICCAI BraTS 2019 competation. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
+This is my solution used for the participation of MICCAI BraTS 2019 competition. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
 
-The details of this project have been written in the preceeding article ["Brain-wise Tumor Segmentation and Patient
+The details of this project have been written in the preceding article ["Brain-wise Tumor Segmentation and Patient
 Overall Survival Prediction"]()
 
 I've only touched the segmentation task(task1) and the survival task(task2).
 
-The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extention to ellisdg's work. 
+The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extension to ellisdg's work. 
 
 ## Development Environment
 Both my desktop and laptop had contributed a lot during the project.
@@ -30,8 +30,8 @@ Other packages you may want to know:
 - pandas==0.24.2
 - tables==3.5.2
 
-## How to run it
-`original_tree.txt` shows the original orgnization of this whole project before you start training process. 
+## How to Run It
+`original_tree.txt` shows the original organization of this whole project before you start training process. 
 
 Pay attention to what we shield in `.gitignore`.
 
@@ -43,12 +43,12 @@ Folder `unet3d` encapsulates 3D U-Net related functions that you could invoke in
 
 `demo_task2` includes survival days prediction task specific codes.
 
-The self-explained `demo_run.ipynb` in `demo_task1` and `demo_task2` illustrate the basic flow of the program. Since there are two phases of training process with different patching stratergies, we need to switch the bool value of `config['pred_specific']` in `demo_task1/train_model.py` to decide which stratergy do we need to use for training. 
-You may also need to manually delete two temprarily generated file `demo_task1/num_patches_training.npy` and `demo_task1/num_patches_val.npy` once you changed the patching stratergy.
+The self-explained `demo_run.ipynb` in `demo_task1` and `demo_task2` illustrate the basic flow of the program. Since there are two phases of training process with different patching strategies, we need to switch the bool value of `config['pred_specific']` in `demo_task1/train_model.py` to decide which strategy do we need to use for training. 
+You may also need to manually delete two temporarily generated file `demo_task1/num_patches_training.npy` and `demo_task1/num_patches_val.npy` once you changed the patching strategy.
 
 This program is valid for both validation dataset and test dataset. Once you changed the validation dataset (to test dataset), don't forget to change the value of `config[num_val_subjects]` in `demo_task1/train_model.py` which indicates the number of subjects in the validation dataset.
 
-The [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) is time consuming and optional during this project. You could manually turn it off by means of setting the certain argument during the preprocessing process. If you don't use the bias correction then you may not need to install `ants` at the begining of `demo_task1/demo_run.ipynb`.
+The [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) is time consuming and optional during this project. You could manually turn it off by means of setting the certain argument during the preprocessing process. If you don't use the bias correction then you may not need to install `ants` at the beginning of `demo_task1/demo_run.ipynb`.
 
 
 
