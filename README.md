@@ -2,7 +2,7 @@
 ## Introduction
 This is my solution used for the participation of MICCAI BraTS 2019 competition. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
 
-The details of this project have been written in the preceding article ["Brain-wise Tumor Segmentation and Patient
+The details of this project have been written in the pre-proceedings article ["Brain-wise Tumor Segmentation and Patient
 Overall Survival Prediction"]()
 
 I've only touched the segmentation task(task1) and the survival task(task2).
