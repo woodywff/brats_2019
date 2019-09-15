@@ -1,8 +1,13 @@
-# Solution to BraTS 2019
+# A 3D U-Net Based Solution to BraTS 2019
 ## Introduction
-This is my solution used for the participation of MICCAI BraTS 2019 competation. For more information about the tasks please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
+This is my solution used for the participation of MICCAI BraTS 2019 competation. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
+
+I've only touched the segmentation task(task1) and the survival task(task2).
+
 
 ## Development Environment
+Both my desktop and laptop had contributed a lot during the project.
+
 Desktop: 
 - gtx1080ti 
 - ubuntu16.04 + virtualenv + python==3.5.2 + tensorflow-gpu==1.11.0 + keras==2.2.4
@@ -21,7 +26,7 @@ Other packages you may want to know:
 - pandas==0.24.2
 - tables==3.5.2
 
-
+## How to run it
 
 
 
