@@ -2,8 +2,12 @@
 ## Introduction
 This is my solution used for the participation of MICCAI BraTS 2019 competation. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
 
+The details of this project have been written in the preceeding article ["Brain-wise Tumor Segmentation and Patient
+Overall Survival Prediction"]()
+
 I've only touched the segmentation task(task1) and the survival task(task2).
 
+The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9 21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extention of ellisdg's work. 
 
 ## Development Environment
 Both my desktop and laptop had contributed a lot during the project.
@@ -27,15 +31,12 @@ Other packages you may want to know:
 - tables==3.5.2
 
 ## How to run it
+original_tree.txt shows the original orgnization of this whole project before you start training process. 
+
+pay attention that 
 
 
 
 
 
 
-
-
-There are three tasks in the challenge this year. I've only submitted the first two of them. 
-
-
-The provided dataset includes four structural MRI modalities. Each MRI image is a 240\*240\*155 sized 3D image saved in a .nii.gz file. The first task is to mark out the brain tumor area in the MRI pictures, which is a segmentation problem. In the training dataset you could find the label image  
