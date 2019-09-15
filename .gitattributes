@@ -3,3 +3,4 @@
 *.js linguist-language=keras
 *.css linguist-language=keras
 *.html linguist-language=keras
+*.md linguist-language=keras 
