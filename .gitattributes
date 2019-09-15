@@ -4,3 +4,4 @@
 *.css linguist-language=keras
 *.html linguist-language=keras
 *.md linguist-language=keras 
+*.txt linguist-language=keras
