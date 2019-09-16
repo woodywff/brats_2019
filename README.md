@@ -1,11 +1,11 @@
 # A 3D U-Net Based Solution to BraTS 2019
 ## Introduction
-This is my solution used for the participation of MICCAI BraTS 2019 competition. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
+This is our solution used for the participation of MICCAI BraTS 2019 competition. For more information about tasks in BraTS 2019 please refer to their [homepage](https://www.med.upenn.edu/cbica/brats2019.html). 
 
 The details of this project have been written in the pre-proceedings article ["Brain-wise Tumor Segmentation and Patient
 Overall Survival Prediction"]()
 
-I've only touched the segmentation task(task1) and the survival task(task2).
+We've only touched the segmentation task(task1) and the survival task(task2).
 
 The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extension to ellisdg's work. 
 
