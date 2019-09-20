@@ -23,12 +23,14 @@ Laptop:
 ### How to setting up the GPU development environment
 You could refer to my setting up history [here](https://github.com/woodywff/history-of-setting-up-deep-learning-environment)
 
-Other packages you may want to know:
+Packages you may want to know:
 - h5py==2.9.0
 - niblabel==2.4.1
 - numpy==1.16.4
 - pandas==0.24.2
 - tables==3.5.2
+
+You may also come across some other `ImportError`, just install them as required. 
 
 ## How to Run It
 `original_tree.txt` shows the original organization of this whole project before you start the training process. 
