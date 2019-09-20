@@ -50,6 +50,8 @@ def mv_results(source_dir,target_dir):
             shutil.move(source_name,target_name)
     
 def main_run():
+    config['num_val_subjects'] = len(os.listdir('../data/preprocessed_val_data/val'))
+    
     gen_val_h5()
     
     if not os.path.exists(config['val_index_list']):
