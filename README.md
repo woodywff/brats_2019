@@ -46,7 +46,7 @@ Folder `unet3d` encapsulates 3D U-Net related functions that you could invoke in
 The self-explained `demo_run.ipynb` in `demo_task1` and `demo_task2` illustrate the basic flow of the program. Since there are two phases of training process with different patching strategies, we need to switch the bool value of `config['pred_specific']` in `demo_task1/train_model.py` to decide which strategy do we need to use for training. 
 You may also need to manually delete two temporarily generated file `demo_task1/num_patches_training.npy` and `demo_task1/num_patches_val.npy` once you changed the patching strategy.
 
-This program is valid for both validation dataset and test dataset. Once you changed the validation dataset (to test dataset), don't forget to change the value of `config['num_val_subjects']` in `demo_task1/train_model.py` which indicates the number of subjects in the validation dataset.
+This program is valid for both validation dataset and test dataset. Once you changed the validation dataset (to test dataset), please delete the old `data/val_data.h5` and `data/val_index_list.pkl`.
 
 The [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) is time consuming and optional during this project. You could manually turn it off by means of setting the certain argument during the preprocessing process. If you don't use the bias correction then you may not need to install `ants` at the beginning of `demo_task1/demo_run.ipynb`.
 
