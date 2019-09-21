@@ -38,7 +38,7 @@ Here are some packages you may need to install.
   ```
   $ pip install numpy, nibable, SimpleITK, tqdm, xlrd, pandas, progressbar, matplotlib, nilearn, sklearn
   ```
-- For Instance Normalization, you may need to download and install it.
+- For Instance Normalization, you may need to download and install `keras-contrib`.
   ```
   $ git clone https://www.github.com/farizrahman4u/keras-contrib.git
   $ pip install <where you saved it>
