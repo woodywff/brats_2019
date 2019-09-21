@@ -23,14 +23,29 @@ Laptop:
 ### How to setting up the GPU development environment
 You could refer to my setting up history [here](https://github.com/woodywff/history-of-setting-up-deep-learning-environment)
 
-Packages you may want to know:
-- h5py==2.9.0
-- niblabel==2.4.1
-- numpy==1.16.4
-- pandas==0.24.2
-- tables==3.5.2
+### Packages
+Here are some packages you may need to install.
 
-You may also come across some other `ImportError`, just install them as required. 
+- For [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) preprocessing, you may need to install `ants`. 
+  - Just follow the installation guide on their homepage [here](http://neuro.debian.net/install_pkg.html?p=ants)
+  - Add `ants` to your environment variable, for instance like `$ export PATH=${PATH}:/usr/lib/ants/`
+- 
+    ```
+    $ sudo apt-get install libhdf5-serial-dev 
+    $ pip install tables
+    ```
+- 
+  ```
+  $ pip install numpy, nibable, SimpleITK, tqdm, xlrd, pandas, progressbar, matplotlib, nilearn, sklearn
+  ```
+- For Instance Normalization, you may need to download and install it.
+  ```
+  $ git clone https://www.github.com/farizrahman4u/keras-contrib.git
+  $ pip install <where you saved it>
+  ```
+For other missed packages you may come across, just install them as required according to the `ImportError`.
+
+
 
 ## How to Run It
 `original_tree.txt` shows the original organization of this whole project before you start the training process. 
@@ -54,6 +69,8 @@ The [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) is time co
 
 
 Last but not the least, pay attention that we shield something in `.gitignore`.
+
+
 
 ## Acknowledgement
 Again, this work refers to [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git) a lot. Deeply appreciate their contributions to the community.
