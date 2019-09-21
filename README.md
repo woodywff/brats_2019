@@ -28,7 +28,7 @@ Here are some packages you may need to install.
 
 - For [n4itk bias correction](https://doi.org/10.1109/TMI.2010.2046908) preprocessing, you may need to install `ants`. 
   - Just follow the installation guide on their homepage [here](http://neuro.debian.net/install_pkg.html?p=ants)
-  - Add `ants` to your environment variable, for instance like `$ export PATH=${PATH}:/usr/lib/ants/`
+  - Add `ants` to your environment variable `PATH`, for instance like `$ export PATH=${PATH}:/usr/lib/ants/`
 - 
     ```
     $ sudo apt-get install libhdf5-serial-dev 
