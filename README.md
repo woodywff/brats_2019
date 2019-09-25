@@ -9,6 +9,8 @@ We've only touched the segmentation task(task1) and the survival task(task2).
 
 The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extension to ellisdg's work. The solution of task 2 is a development based on [xf4j's work](https://github.com/xf4j/brats18) which was the winner of BraTS 2018.
 
+If you wanna download our trained models, there is [an image we uploaded to dockerhub](https://hub.docker.com/r/woodywff/brats2019) inside which you could find the saved .h5 files.
+
 ## Development Environment
 Both my desktop and laptop had contributed a lot during the project.
 
