@@ -7,7 +7,7 @@ Overall Survival Prediction"]()
 
 We've only touched the segmentation task(task1) and the survival task(task2).
 
-The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extension to ellisdg's work. 
+The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git). You could also see this implementation as an extension to ellisdg's work. The solution of task 2 is a development based on [xf4j's work](https://github.com/xf4j/brats18) which was the winner of BraTS 2018.
 
 ## Development Environment
 Both my desktop and laptop had contributed a lot during the project.
@@ -73,7 +73,7 @@ Last but not the least, pay attention that we shield something in `.gitignore`.
 
 
 ## Acknowledgement
-Again, this work refers to [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21) and [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git) a lot. Deeply appreciate their contributions to the community.
+Again, this work refers to [Isensee et.al's paper](https://doi.org/10.1007/978-3-030-11726-9_21), [ellisdg's repository](https://github.com/ellisdg/3DUnetCNN.git) and [xf4j's repository](https://github.com/xf4j/brats18). Deeply appreciate their contributions to the community.
 
 Many thanks to the host of [BraTS 2019](https://www.med.upenn.edu/cbica/brats2019.html).
 
