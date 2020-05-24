@@ -12,7 +12,7 @@ The 3D U-Net model is borrowed from [Isensee et.al's paper](https://doi.org/10.1
 If you wanna download our trained models, there is [an image we uploaded to dockerhub](https://hub.docker.com/r/woodywff/brats2019) inside which you could find the saved .h5 files.
 
 ## Development Environment
-Both my desktop and laptop had contributed a lot during the project.
+Both my desktop and laptop had contributed a lot to the project.
 
 Desktop: 
 - gtx1080ti 
